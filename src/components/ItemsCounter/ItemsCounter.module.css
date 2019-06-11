@@ -1,0 +1,11 @@
+.ItemCounter button{
+  margin: 0;
+  width: auto;
+}
+
+.Separator {
+  width: 300px;
+  height: 1px;
+  background: lightgray;
+  margin: 10px 0;  
+}

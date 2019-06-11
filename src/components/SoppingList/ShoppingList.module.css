@@ -1,0 +1,16 @@
+.ShoppingList h1 {
+  text-align: center;
+  width: auto;
+}
+
+.Flex {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+
+.Flex div {
+  margin-left: 20px;
+}
+

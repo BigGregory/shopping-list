@@ -1,0 +1,16 @@
+.ItemDescription {
+  border: 1px solid lightblue;
+  border-radius: 2px;
+  box-shadow: 0 0 5px lightblue;
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 8px;
+} 
+
+.ItemDescription button {
+  width: auto;
+  margin: 0;
+} 
+.ItemDescription p {
+  margin: 5px 0;
+}
