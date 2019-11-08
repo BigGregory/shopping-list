@@ -1,4 +1,4 @@
-.ItemDescription {
+.ItemDescriptionList {
   border: 1px solid lightblue;
   border-radius: 2px;
   box-shadow: 0 0 5px lightblue;
@@ -7,10 +7,10 @@
   margin-bottom: 8px;
 } 
 
-.ItemDescription button {
+.ItemDescriptionList button {
   width: auto;
   margin: 0;
 } 
-.ItemDescription p {
+.ItemDescriptionList p {
   margin: 5px 0;
 }

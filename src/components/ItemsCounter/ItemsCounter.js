@@ -4,14 +4,14 @@ import styles from './ItemsCounter.module.css';
 import PropTypes from 'prop-types';
 
 // TODO prop-types required
-const ItemsCounter = ({itemList, removeAll}) => {
-  let isEmptyList = itemList.length === 0;
-  let listCount = itemList.length; 
+const ItemsCounter = ({ItemDescriptionList, removeAllItems}) => {
+  const isEmptyList = ItemDescriptionList.length === 0;
+  const listCount = ItemDescriptionList.length; 
   let description;
   if (isEmptyList) {
     description = <p>No items in list</p>
   } else {
-    description = <p className={styles.ItemCounter}>{listCount} item <Button clickedHandler={removeAll}>Remove All</Button></p>
+    description = <p className={styles.ItemCounter}>{listCount} item <Button clickedHandler={removeAllItems}>Remove All</Button></p>
   }
   return (
     <div>
@@ -23,10 +23,10 @@ const ItemsCounter = ({itemList, removeAll}) => {
 };
 
 ItemsCounter.propTypes = {
-  itemList: PropTypes.array
+  ItemDescriptionList: PropTypes.array
 }
 ItemsCounter.defaultProps = {
-  itemList: []
+  ItemDescriptionList: []
 }
 
 export default ItemsCounter;

@@ -19,9 +19,3 @@ export const removeAllItems = () => {
     type: constants.REMOVE_ALL_ITEMS
   }
 }
-
-// export const cancelItem = () => {
-//   return {
-//     type: constants.CANCEL_ITEM
-//   }
-// }

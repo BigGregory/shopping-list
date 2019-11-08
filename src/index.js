@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import ShoppingList from './components/ShoppingList';
+import ShoppingList from './components/ShoppingList/ShoppingList';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { rootReducer } from './rootReducer';
